@@ -63,14 +63,14 @@ python web_app.py
 ## Giao diện hệ thống
 
 ### 1. Giao Diện Hệ Thống Nhận Diện Côn Trùng Gây Hại
-![Giao diện chính](static/example1.jpg)
+![Giao diện chính](images(2)/anh1.jpg)
 - Giao diện web cho phép người dùng:
   * Tải lên ảnh côn trùng hoặc lá cây bị bệnh
   * Sử dụng camera ESP32-CAM trực tiếp
   * Hiển thị kết quả nhận diện với độ tin cậy cao
 
 ### 2. Giao Diện Kết Quả Nhận Diện
-![Kết quả nhận diện](static/example2.jpg)
+![Kết quả nhận diện](images(2)/anh2.jpg)
 - Hiển thị:
   * Ảnh gốc được tải lên
   * Khung bounding box xác định vị trí côn trùng
@@ -78,7 +78,7 @@ python web_app.py
   * Đối chiếu với nhãn thật (ground truth)
 
 ### 3. Giao Diện Lịch Sử Dự Đoán
-![Lịch sử dự đoán](static/example3.jpg)
+![Lịch sử dự đoán](images(2)/anh3.jpg)
 - Bảng lịch sử chi tiết:
   * Thời gian thực hiện dự đoán
   * Loại nguồn ảnh (Upload/ESP32-CAM)
@@ -87,7 +87,7 @@ python web_app.py
   * Ảnh kết quả với bounding box
 
 ### 4. Thông Báo Qua Telegram
-![Thông báo Telegram](static/example4.jpg)
+![Thông báo Telegram](images(2)/anh4.jpg)
 - Tự động gửi thông báo:
   * Thời gian phát hiện
   * Loại côn trùng được phát hiện
