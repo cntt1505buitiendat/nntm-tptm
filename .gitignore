@@ -1,0 +1,14 @@
+# Bỏ thư mục ảnh nặng
+images/
+
+# Bỏ Python cache
+__pycache__/
+*.pyc
+
+# Bỏ dữ liệu huấn luyện YOLO
+runs/
+uploads/
+
+# Bỏ các file cấu hình tạm thời
+*.log
+*.tmp
